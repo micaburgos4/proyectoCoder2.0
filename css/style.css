@@ -1,0 +1,230 @@
+/*---reset---*/
+*{
+    background-color: mistyrose;
+    box-sizing: border-box;
+}
+
+
+
+/**-------Header----------**/
+.flores {
+    position: relative;
+    display: inline-block;
+}
+.titulo {
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    font-size: 90px;
+    font-weight: bold;
+    color: rgba(235, 50, 50, 0.992);
+    border-radius: 10px;
+}
+.encabezado{
+    position: absolute;
+    top: 280px;
+}
+.barra {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0);
+    padding: 1px;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(247, 78, 78, 0.992);
+    border-radius: 15px;
+}
+.bienvenidos {
+    position: relative;
+    position: sticky;
+}
+
+
+.bienvenidos h1{
+    position: absolute;
+    bottom: 0;
+    padding: 70px;
+    z-index: 1;
+}
+.bienvenidos nav{
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+.bienvenidos img{
+    -o-border-image: round;
+    height: 350px;
+    position: sticky;
+    
+}
+h1 {
+    margin:  0;
+    padding: 0;
+    font-size: 60px;
+}
+
+header{
+    background-color: mistyrose;
+}
+
+
+header h1{ 
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(209, 96, 59);
+    display: inline-block;
+
+}
+
+header nav ul li{
+    display: inline-block;
+    color: rgb(209, 130, 104);
+}
+
+header nav{
+    display: inline-block ;
+    margin: 10px 30px 10px 30px;
+}
+header nav ul{
+    list-style: none;
+}
+
+header img{
+    width: 1500px;
+    height: 600px;
+    margin: 0%;
+}
+
+/**-------Main---------**/
+
+
+main{
+    background-color: mistyrose;
+}
+
+h2  {
+    color: rgb(235, 91, 91);
+    font-size: 40px;
+}
+
+    /**------Sections--------**/
+
+div img{
+    width: 1300px;
+    height: 350px;
+}
+
+div{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.servicio1 h4{
+    position: relative;
+    bottom: 95px;
+    display: grid;
+}
+
+.servicio2 h4{
+    position: relative;
+    bottom: 95px;
+    display: grid;
+}
+
+.servicio3 h4{
+    position: relative;
+    bottom: 95px;
+    display: grid;
+}
+
+.servicios456 h4{
+    position: relative;
+    bottom: 95px;
+    display: grid;
+}
+
+.servicios456 a{
+    position: relative;
+    bottom: 105px;
+    display: grid;
+}
+.servicio4 a{
+    position: relative;
+    bottom: 105px;
+    display: grid;
+}
+.servicio5 a{
+    position: relative;
+    bottom: 105px;
+    display: grid;
+}
+.servicio6 a{
+    position: relative;
+    bottom: 105px;
+    display: grid;
+}
+
+h3  {
+    color: lightcoral;
+    font-size: 35px;
+}
+
+h4  {
+    color: indianred;
+    font-size: 30px;
+}
+
+.boton{
+    background-color: lightsalmon;
+    color: rgb(84, 44, 44);
+}
+
+.servicios456 a{
+    background-color: lightpink;
+    text-decoration: none;
+    color: rgb(183, 75, 75);
+    padding: 10px;
+
+}
+.servicios456 img{
+    width: 411px;
+    height: 350px;
+    border: 1px solid black;
+    display: flexbox;
+    justify-content: left;
+
+}
+
+
+
+
+
+
+/**-------Footer----------**/
+footer{
+    background-color: mistyrose;
+}
+footer img {
+    width: 50px;
+    height: 50px; 
+}
+
+
+@media screen and (max-width:390px) {
+    h1 {
+        margin:  4;
+        padding: 0;
+        font-size: 20px;
+        
+    }
+    h2  {
+        color: rgb(235, 91, 91);
+        font-size: 30px;
+    }
+
+}
