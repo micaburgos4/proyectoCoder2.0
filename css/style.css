@@ -169,6 +169,23 @@ div{
     display: grid;
 }
 
+.servicio7 h4{
+    position: relative;
+    bottom: 95px;
+    display: grid;
+}
+
+.servicio8 h4{
+    position: relative;
+    bottom: 95px;
+    display: grid;
+}
+
+.servicio9 h4{
+    position: relative;
+    bottom: 95px;
+    display: grid;
+}
 h3  {
     color: lightcoral;
     font-size: 35px;
