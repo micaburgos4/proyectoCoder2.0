@@ -126,8 +126,8 @@ div{
 
 .all
 img {
-    width: 2000px; /* Ancho específico */
-    height: 550px; /* Altura específica */
+    width: 2000px; 
+    height: 550px; 
 }
 
 .servicio1 h4{
@@ -192,12 +192,12 @@ img {
     bottom: 95px;
     display: grid;
 }
-h3  {
+ h3  {
     color: lightcoral;
     font-size: 35px;
 }
 
-h4  {
+.all h4  {
     color: indianred;
     font-size: 30px;
 }
@@ -232,7 +232,7 @@ h4  {
 footer{
     background-color: mistyrose;
 }
-footer img {
+.redes footer img {
     width: 50px;
     height: 50px; 
 }
