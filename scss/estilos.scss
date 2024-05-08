@@ -1,4 +1,274 @@
-.redes footer img {
-    width: 50px;
-    height: 50px; 
+
+header{
+    header{
+    background-color: mistyrose;
+    }
+    .bienvenidos {
+        position: relative;
+        position: sticky;
+    }
+    h1 {
+    
+        .bienvenidos h1{
+            position: absolute;
+            bottom: 0;
+            padding: 70px;
+            z-index: 1;
+        }
+        .titulo {
+            position: absolute;
+            top: 50%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0);
+            padding: 10px;
+            font-size: 90px;
+            font-weight: bold;
+            color: rgba(235, 50, 50, 0.992);
+            border-radius: 10px;
+        }
+        h1 {
+            margin:  0;
+            padding: 0;
+            font-size: 60px;
+        }
+        h1{ 
+            font-size: 70px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: rgb(209, 96, 59);
+            display: inline-block;
+        
+        }
+    }
+    nav{
+        .bienvenidos nav{
+            position: absolute;
+            bottom: 0;
+            z-index: 1;
+        }
+        .barra {
+            position: absolute;
+            top: 40%;
+            left: 20%;
+            transform: translate(-50%, -50%);
+            background-color: rgba(255, 255, 255, 0);
+            padding: 1px;
+            font-size: 20px;
+            font-weight: bold;
+            color: rgba(247, 78, 78, 0.992);
+            border-radius: 15px;
+        }
+        ul{
+            li><a{
+                header nav ul li{
+                    display: inline-block;
+                    color: rgb(209, 130, 104);
+                }
+                header nav ul{
+                    list-style: none;
+                }
+            }
+        }
+        header nav{
+            display: inline-block ;
+            margin: 10px 30px 10px 30px;
+        }
+img{
+    .flores {
+        position: relative;
+        display: inline-block;
+        }
+    header img{
+        width: 1500px;
+        height: 600px;
+        margin: 0%;
+        }
+    .bienvenidos img{
+        -o-border-image: round;
+        height: 350px;
+        position: sticky;
+            
+        }
+    }
+        }
+
+}
+main{
+main{
+    background-color: mistyrose;
+    }
+    section{
+h2{
+.encabezado{
+    position: absolute;
+    top: 280px;
+        }
+h2  {
+    color: rgb(235, 91, 91);
+    font-size: 40px;
+        }
+        }
+p{
+
+        }
+section{
+h3{
+    h3  {
+        color: lightcoral;
+        font-size: 35px;
+    }
+
+        }
+        div{
+            .all
+img {
+    width: 2000px; 
+    height: 550px; 
+}
+            div img{
+                width: 1300px;
+                height: 350px;
+            }
+            
+            div{
+                .todoslosservicios h4  {
+                    color: indianred;
+                    font-size: 30px;
+                }
+                .servicio1 h4{
+                    position: relative;
+                    bottom: 95px;
+                    display: grid;
+                }
+                
+                .servicio2 h4{
+                    position: relative;
+                    bottom: 95px;
+                    display: grid;
+                }
+                
+                .servicio3 h4{
+                    position: relative;
+                    bottom: 95px;
+                    display: grid;
+                }
+                
+                .servicios456 h4{
+                    position: relative;
+                    bottom: 95px;
+                    display: grid;
+                }
+                
+                .servicios456 a{
+                    position: relative;
+                    bottom: 105px;
+                    display: grid;
+                }
+                .servicio4 a{
+                    position: relative;
+                    bottom: 105px;
+                    display: grid;
+                }
+                .servicio5 a{
+                    position: relative;
+                    bottom: 105px;
+                    display: grid;
+                }
+                .servicio6 a{
+                    position: relative;
+                    bottom: 105px;
+                    display: grid;
+                }
+                
+                .servicio7 h4{
+                    position: relative;
+                    bottom: 95px;
+                    display: grid;
+                }
+                
+                .servicio8 h4{
+                    position: relative;
+                    bottom: 95px;
+                    display: grid;
+                }
+                
+                .servicio9 h4{
+                    position: relative;
+                    bottom: 95px;
+                    display: grid;
+                }
+                .servicios456 a{
+                    background-color: lightpink;
+                    text-decoration: none;
+                    color: rgb(183, 75, 75);
+                    padding: 10px;
+                
+                }
+                .servicios456 img{
+                    width: 411px;
+                    height: 350px;
+                    border: 1px solid black;
+                    display: flexbox;
+                    justify-content: left;
+                
+                }
+
+                text-align: center;
+                text-transform: uppercase;
+                h4{
+
+                }
+                a{
+                .boton{
+                    background-color: lightsalmon;
+                    color: rgb(84, 44, 44);
+                    }
+                }
+            }
+            
+            
+
+        }
+    }    
+
+
+    }
+}
+footer{
+    footer{
+        background-color: mistyrose;
+        display: flex;
+        justify-content: space-between;
+        width: 50px;
+        height: 50px; 
+        overflow: hidden;
+        width: 100%; 
+        height: 100%; 
+        object-fit: cover;
+        margin: 0 auto;
+        
+    }
+    @media screen and (max-width:390px) {
+        h1 {
+            margin:  4;
+            padding: 0;
+            font-size: 20px;
+            
+        }
+        h2  {
+            color: rgb(235, 91, 91);
+            font-size: 30px;
+        }
+    
+    }
+h5{
+
+    }
+    a{
+
+    }
+img{
+
+    }
+
 }
