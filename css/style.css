@@ -233,12 +233,12 @@ footer{
     background-color: mistyrose;
     display: flex;
     justify-content: space-between;
-    width: -3px; /* Ancho del cuadrado */
-    height: -3px; /* Altura del cuadrado */
+    width: 50px;
+    height: 50px; 
     overflow: hidden;
-    width: 100%; /* Hacer que la imagen llene el cuadrado */
-    height: 100%; /* Hacer que la imagen llene el cuadrado */
-    object-fit: cover; /* Ajustar la imagen al contenedor, cortando los borde*/
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;
     margin: 0 auto;
     
 }
