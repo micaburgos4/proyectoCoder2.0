@@ -5,7 +5,7 @@ header{
     }
     .bienvenidos {
         position: relative;
-        position: sticky;
+        position: absolute;
     }
     h1 {
     
@@ -131,14 +131,24 @@ img {
             }
             
             div{
-                .todoslosservicios h4  {
-                    color: indianred;
-                    font-size: 30px;
+                .todoslosservicios {
+                    background-color: mistyrose;
+                    display: flex;
+                    justify-content: space-between;
+                    width: 80px;
+                    height: 8px; 
+                    overflow: hidden;
+                    width: 100%; 
+                    height: 100%; 
+                    object-fit: cover;
+                    margin: 0 auto;
                 }
                 .servicio1 h4{
                     position: relative;
                     bottom: 95px;
                     display: grid;
+                    color: indianred;
+                    font-size: 30px;
                 }
                 
                 .servicio2 h4{
@@ -239,8 +249,8 @@ footer{
         background-color: mistyrose;
         display: flex;
         justify-content: space-between;
-        width: 50px;
-        height: 50px; 
+        width: 10px;
+        height: 10px; 
         overflow: hidden;
         width: 100%; 
         height: 100%; 
@@ -248,23 +258,26 @@ footer{
         margin: 0 auto;
         
     }
-    @media screen and (max-width:390px) {
-        h1 {
-            margin:  4;
-            padding: 0;
-            font-size: 20px;
+    @media screen and (max-width:290px) {
+    h1 {
+        margin:  4;
+    padding: 0;
+    font-size: 20px;
+        position: relative;
+    position: sticky
             
-        }
+    }
         h2  {
-            color: rgb(235, 91, 91);
-            font-size: 30px;
+    color: rgb(235, 91, 91);
+    font-size: 30px;
         }
     
     }
-h5{
+    h5{
 
     }
-    a{
+
+a{
 
     }
 img{
